@@ -1,0 +1,103 @@
+main{
+    background-color: #F3D7B7;
+    height: 720px;
+    padding-top: 23px;
+}
+.sec1 h2{
+font-family: Roboto;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+color: #000000;
+margin-top: 135px;
+}
+.sec1 p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+width: 372px;
+margin-top: 74px;
+
+}
+.sec1 {
+    display: flex   ;
+}
+.img5{
+width: 660px;
+height: 390px;
+margin-left: 304px;
+margin-top: 135px;
+position: relative;
+}
+.img4{
+position: absolute;
+animation-name: img4;
+ animation-duration: 2s; /* Длительность анимации для h1 */
+    animation-iteration-count: infinite; /* Бесконечное повторение анимации */
+    animation-direction:normal; /* Анимация воспроизводится в обычном направлении */
+    
+right: 570px;
+bottom: 530px;
+}
+@keyframes img4{
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.section3{
+height: 740px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.section3 h3{
+font-family: Roboto;
+font-size: 48px;
+font-weight: 700;
+line-height: 56.25px;
+margin-bottom: 64px;
+
+}
+.section3 p{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 646px;
+}
+.fot1{
+    background-color: #C99B67;
+    height: 510px;
+    padding-top: 109px;
+    display: flex;
+}
+.fot1 h2{
+    font-family: Roboto;
+font-size: 50px;
+font-weight: 700;
+line-height: 58.59px;
+margin-bottom: 28px;
+width: 397px;
+color: white;
+}
+.fot1 p{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 639px;
+color: white;
+}
+.fot{
+    display: flex;
+}
+.fot img{
+    width: 566px;
+height: 552px;
+margin-left: 50px;
+transform: translate(0px,-250px);
+}
